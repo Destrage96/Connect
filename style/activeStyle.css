@@ -1,0 +1,373 @@
+nav{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.topnav .icon{
+  display: none;
+}
+
+.topnav a{
+  margin: 40px auto;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 10px;
+  position: relative;
+  text-align:center;
+  padding: 10px 20px;
+  color: #ffffff;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.statWrap{
+  text-align: center;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.statWrap h2{
+  margin: 100px auto 50px;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+}
+
+.statWrap p{
+  margin-bottom: 50px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.formButton{
+  background-color: #7a7a7ac9;
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  padding: 30px;
+  text-align: left;
+}
+
+.formButton .f1{
+  width: 800px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.tabForm{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+  width: 300px;
+  height: 20px;
+}
+
+.towTab{
+  width: 400px;
+  height: 70px;
+  margin: auto;
+}
+
+.textfield{
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.textfield:focus{
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.formButton a{
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  text-align: center;
+  width: 190px;
+  position: relative;
+  top: 130px;
+  left: 40%;
+  color: #ffffff;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+a.fciA:hover{
+  color: #000000;
+  background:rgba(0,0,0,0.1);
+}
+
+a.fciA:after{
+  left: -20px;
+  -webkit-transition-property: left, opacity, top;
+  -moz-transition-property: left, opacity, top;
+  -o-transition-property: left, opacity, top;
+  transition-property: left, opacity, top;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  border-left: 5px solid #000000;
+  border-top: 5px solid #000000;
+  top: -22px;
+  opacity: 0;
+}
+
+a.fciA:hover:after{
+  left: -10px;
+  top: -12px;
+  opacity: 1;
+}
+
+a.fciA:before{
+  right: -20px;
+  -webkit-transition-property: right, opacity, top;
+  -moz-transition-property: right, opacity, top;
+  -o-transition-property: right, opacity, top;
+  transition-property: right, opacity, top;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  border-right: 5px solid #000000;
+  border-top: 5px solid #000000;
+  top: -22px;
+  opacity: 0;
+}
+
+a.fciA:hover:before{
+  right: -10px;
+  top: -12px;
+  opacity: 1;
+}
+
+.fciSpan:after{
+  left: -20px;
+  -webkit-transition-property: left, opacity, bottom;
+  -moz-transition-property: left, opacity, bottom;
+  -o-transition-property: left, opacity, bottom;
+  transition-property: left, opacity, bottom;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  border-left: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+  bottom: -24px;
+  opacity: 0;
+}
+
+.fciSpan:hover:after{
+  left: -10px;
+  bottom: -14px;
+  opacity: 1;
+}
+
+.fciSpan:before{
+  right: -20px;
+  -webkit-transition-property: right, opacity, bottom;
+  -moz-transition-property: right, opacity, bottom;
+  -o-transition-property: right, opacity, bottom;
+  transition-property: right, opacity, bottom;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  border-right: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+  bottom: -24px;
+  opacity: 0;
+}
+
+.fciSpan:hover:before{
+  right: -10px;
+  bottom: -14px;
+  opacity: 1;
+}
+
+.main_contacts{
+  padding: 100px 0 100px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.WrapMap h2{
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+}
+
+.topMap{
+  display: inline-flex;
+  margin: auto; 
+}
+
+.topMap p{
+  padding: 50px 0;
+  margin-left: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.topMap a{
+  color: #000000
+}
+
+.map{
+  margin: auto;
+  width: 1000px;
+  height: 350px;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+
+@media screen and (max-width:1200px){
+  .formButton{
+    width: 850px;
+    height: 250px;
+  }
+
+  .formButton a{
+    top: 65px;
+  }
+
+  .tabForm{
+    font-size: 12px;
+  }
+
+  .textfield {
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px;
+    margin: 15px;
+  }
+
+  nav{
+    margin-left: 7%;
+  }
+
+  iframe{
+    width: 800px;
+  }
+  
+  .map{
+    width: 800px;
+    left: 15%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width:1103px){
+  .formButton{
+    width: 700px;
+    height: 230px;
+  }
+  
+  .formButton .f1{
+    width: 600px;
+  }
+
+  .formButton a{
+    top: 100px;
+  }
+
+  .tabForm{
+    font-size: 12px;
+  }
+
+  .textfield {
+    width: 190px;
+    height: 25px;
+    padding: 10px 10px;
+    margin: 15px;
+  }
+  
+  .entr_cont{
+    position: relative;
+    bottom: 230px;
+    margin: 100px auto 0;
+  }
+
+  .topMap p{
+    flex-direction: column;
+    font-size: 10px;
+  }
+  
+  iframe{
+    width: 650px;
+   
+  }
+  
+  .map{
+    width: 650px;
+  }
+}
+
+@media screen and (max-width:1010px){
+  .entr_cont{
+    position: relative;
+    bottom: 230px;
+    margin: 100px auto 0;
+  }
+  .formButton{
+    width: 400px;
+    height: 300px;
+  }
+ 
+  .formButton .f1{
+    width: 400px;
+  }
+
+  .formButton a{
+    position: relative;
+    left: 125px;
+  }
+
+  .textfield {
+    width: 170px;
+    height: 25px;
+    padding: 5px 3px;
+    margin: 15px;
+  }
+  .tabForm{
+    font-size: 12px;
+  }
+
+  iframe{
+    width: 400px;
+  }
+  
+  .map{
+    width: 400px;
+  }
+}
+

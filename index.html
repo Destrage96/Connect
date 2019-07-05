@@ -1,116 +1,177 @@
 <!DOCTYPE html>
 <html lang="RU">
-<head>
-    <meta charset="UTF-8">
-    <title>Коннект</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="header__logo">
-                <a href="#!">
-                    <img src="img/logo2.png" alt="Connect" class="logo">
-                </a>
-            </div>
-            <div class="top">
-               <p>Пиши нам: <a href="mailto:Konnekt61@gmail.com" class="mail">Konnekt61@gmail.com</a></p>    
-                <p>Группа в VK: <a href="https://vk.com/konnekt61">konnekt61</a></p>
-                <p>Работаем: с 9:00 до 17:00</p>
-                <p>Телефон: 8-909-430-99-66</p>  
-            </div>
-                  
-        </header>
-        <main>
-            <div class="main_welcome">
-                <h1><span class="mycompany">Ремонт мобильной техники, телефонов и планшетов</span></h1>
-                    <p>We are a digital agency with <b>years of experience</b> and with <b>extraordinary people</b></p>
+    <head>
+        <meta charset="UTF-8">
+        <title>Коннект</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/activeStyle.css">
+        <link href="https://fonts.google.com/?query=Neuropol+X" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header__logo">
+                    <a href="#!">
+                        <img src="img/konnek_logo_white.png" alt="Connect" class="logo">
+                    </a>
                 </div>
-                <div class="wrapper">
-                    <div class="main_about">
+                <nav>
+                    <div class="topnav" id="myTopnav">
+                        <a href="#Главная" class="fciA navItem"><span class="fciSpan">Главная</span></a>
+                        <a href="#О_нас" class="fciA navItem"><span class="fciSpan">О нас</span></a>
+                        <a href="#Услуги" class="fciA navItem"><span class="fciSpan">Услуги</span></a>
+                        <a href="#Узнать" class="fciA navItem"><span class="fciSpan">Узнать статус заказа</span></a>
+                        <a href="#Контакты" class="fciA navItem"><span class="fciSpan">Контакты</span></a>
+                        <a href="#" id="menu" class="icon">&#9776;</a>
+                    </div>
+                </nav>
+            </header>
+            
+            <main>
+                <a name="Главная"></a>
+                <div class="main_welcome">
+                    <div class="entr_cont">
+                        <h1><span class="entry">Профессиональный ремонт носимой электроники</span></h1>
+                        <div class="vk_konnekt">
+                            <a href="https://vk.com/konnekt61"><img src="img/vk.png" alt=""></a>   
+                        </div> 
+                        <div class="botIcons">
+                            <div class="iconNum">
+                                <img src="img/icon.num.png" alt="">
+                                <a href="tel:+7-909-430-99-66"><p>8-909-430-99-66</p></a>
+                            </div>
+                            <div class="iconMap">
+                                <a href="#Контакты">
+                                <img src="img/icon.map.png" alt="">
+                                <p>Новошахтинск, Базарная, 29</p>
+                                </a>
+                            </div>  
+                        </div>
+                        <a name="О_нас"></a>
+                    </div>
+                </div> 
+
+                <div class= "main_about">
+                    <h2>О НАС</h2>     
+                    <div class="about_Us">
                         <div class="about_left">
-                            <img class="mw-100" src="img\mac.png" alt="mac">
+                            <img src="img/bg2.jpg" alt="">
                         </div>
                         <div class="about_right">
-                            <h2>Some words about us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
+                            <p>Наш сервис - это команда лучших профессионалов города. Бережное отношение к вашим устройства, лучшее оборудование для выполнения ремонта любой сложности и любовь к своему делу, делают нас лучшим сервисом города и гарантом качества выполняемых работ.  </p>
                             <ul>
-                                <li><b>Mission</b> - <em>We deliver uniqueness and quality</em></li>
-                                <li><b>Skills</b> - <em>Delivering fast and excellent results</em></li>
-                                <li><b>Clients</b> - <em>Satisfied clients thanks to our experience</em></li>
+                                <li><b>Качество</b> - <em>только лучшее специализированное оборудование и высококвалифицированные специалисты.</em></li>
+                                <li><b>Опыт</b> - <em>более 10 лет выполняем ремонт любой сложности.</em></li>
+                                <li><b>Гарантия</b> - <em>по окончанию ремонта предоставляем гарантию - 1 месяц.</em></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-        
-                <div class="main_team">
+                
+                <a name="Услуги"></a>
+                    <div class="main_work">
                     <div class="wrapper">
-                        <h2>OUR TEAM</h2>
-                    <div class="line"></div>
-                    <div class="team_cards">
-                        <div class="card">
-                            <div class="photo"></div>
-                                <h4 class="Name">Name Last name</h4>
-                                <p class="position">Designer</p>
-                                <p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
-                            
+                        <h2>Выполняем работы любой сложности</h2>
+                        <div class="Work_cards">
+                            <div class="card">
+                                <div class="WorkIcon"><img src="img/ремонт1.png" alt=""></div>
+                                <h4 class="Name">Замена стёкол и дисплеев</h4>
+                                <p class="about_position"> (тачскрина, дисплея, дисплейного модуля) от 800р </p>
+                            </div>
+
+                            <div class="card">
+                                <div class="WorkIcon"><img src="img/ремонт2.png" alt=""></div>
+                                <h4 class="Name">Замена системных разъёмов</h4>
+                                <p class="about_position">(зарядки, гарнитуры, сим-карты, карты памяти, контактов батареи) от 300р </p> 
+                            </div>
+
+                            <div class="card">
+                                <div class="WorkIcon"><img src="img/ремонт3.png" alt=""></div>
+                                <h4 class="Name">Программный ремонт</h4>
+                                <p class="about_position">(прошивка, разблокировка, помощь с восстановлением/удалением учётных записей, оптимизация работы программного обеспечения) от 600р </p>                            
+                            </div>
+
+                            <div class="card">
+                                <div class="WorkIcon"><img src="img/ремонт4.png" alt=""></div>
+                                <h4 class="Name">ремонт радио-модулей</h4>
+                                <p class="about_position">( GSM, 3G, LTE, Wi-Fi, Bluetooth, NFC) от 1200р </p>                           
+                            </div>
+
+                            <div class="card">
+                                <div class="WorkIcon"><img src="img/ремонт5.png" alt=""></div>
+                                <h4 class="Name">Аппаратный ремонт</h4>
+                                <p class="about_position">( замена радио-элементов, микросхем памяти, процессоров, восстановление после удара или попадания жидкости) от 1000р </p>                           
+                            </div>
                         </div>
-                        <div class="card">
-                            <div class="photo"></div>
-                                <h4 class="Name">Name Last name</h4>
-                                <p class="position">Manager</p>
-                                <p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
-                            
+                        <a name="Узнать"></a> 
+                    </div>
+                </div>
+                
+                <div class="stat_ord">
+                    <div class="statWrap">
+                        <h2>Узнать статус заказа</h2>
+                        <p>Вы можете узнать статус заказа прямо сейчас, для это введите номер квитанции и ФИО (например: Иванов И.И.) указанные в ней</p>
+                        <div class="formButton">
+                            <form> 
+                                <div class="f1">
+                                    <label>  
+                                        Номер квитанции:
+                                    <input id="kv"  type="number" class="textfield" placeholder="№ квитанции">
+                                    </label>
+
+                                    <label>
+                                    ФИО:
+                                        <input id="username" type="text" class="textfield" placeholder="Ф.И.О" required>
+                                    </label>
+                                </div>  
+                                <div class="towTab"> 
+                                    <table class="tabForm" style="margin: 30px auto 0;"> 
+                                        <tr> 
+                                            <td align="center" id="td_isfound"></td> 
+                                        </tr> 
+                                        <tr> 
+                                            <td>&nbsp;</td> 
+                                        </tr> 
+                                    </table> 
+                                    
+                                    <table class="tabForm" style="margin: 10px auto 0;"> 
+                                        <tr> 
+                                            <td>&nbsp;&nbsp;&nbsp;</td> 
+                                            <td id="td_device">&nbsp;&nbsp;</td> 
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;&nbsp;&nbsp;</td> 
+                                            <td id="td_status">&nbsp;</td> 
+                                        </tr> 
+                                    </table> 
+                                </div>
+                                <a href="" style="margin: auto"  onclick="validate(this.form)" class="fciA navItem" id="myForm"><span class="fciSpan">Отправить</span></a>
+                            </form>
                         </div>
-                        <div class="card">
-                            <div class="photo"></div>
-                                <h4 class="Name">Name Last name</h4>
-                                <p class="position">Copywriter</p>
-                                <p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
+                    </div>
+                </div>
+                
+                <a name="Контакты"></a>  
+                <div class="main_contacts">
+                    <div class="WrapMap">
+                        <h2>Мы находимся:</h2>
+                        <div class="topMap"> 
+                            <p>Пиши нам: <a href="mailto:Konnekt61@gmail.com" class="mail">Konnekt61@gmail.com</a></p>    
+                            <p>Группа в VK: <a href="https://vk.com/konnekt61">konnekt61</a></p>
+                            <p>Работаем: с 9:00 до 17:00</p>
+                            <p>Телефон: 8-909-430-99-66</p>  
                         </div>
-                        <div class="card">
-                            <div class="photo"></div>
-                                <h4 class="Name">Name Last name</h4>
-                                <p class="position">SEO</p>
-                                <p class="about_position">Do not seek to change what has come before. Seek to create that which has not.</p>
-                            
-                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d281.9549198548601!2d39.932877039866035!3d47.75386117205085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e21fde72a971cd%3A0xd3dbb65f21a0a459!2z0YPQuy4g0JHQsNC30LDRgNC90LDRjywgMjksINCd0L7QstC-0YjQsNGF0YLQuNC90YHQuiwg0KDQvtGB0YLQvtCy0YHQutCw0Y8g0L7QsdC7LiwgMzQ2OTE4!5e0!3m2!1sru!2sru!4v1561097250867!5m2!1sru!2sru" width="1000" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </main>
-        
-            <div class="main_services">
-                <div class="wrapper">
-                    <h2>OUR SERVICES</h2>
-                    <div class="line"></div>
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
-                    <div class="services_cards">
-                        <div class="servies_card">
-                            <img src="img/web.jpg" alt="web desing">
-                            <h4>WEB DESING</h4>
-                            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="servies_card">
-                            <img src="img/mobile.jpg" alt="mobile apps">
-                            <h4>Mobile Apps</h4>
-                            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="servies_card">
-                            <img src="img/Photo.jpg" alt="photografy">
-                            <h4>PHOTOGRAFY</h4>
-                            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="servies_card">
-                            <img src="img/marketing.jpg" alt="marketing">
-                            <h4>MARKETING</h4>
-                            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-</body>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+        <script src="JS/script.js" defer></script>
+    </body>
 </html>
