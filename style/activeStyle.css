@@ -43,11 +43,13 @@ nav {
 
 .formButton {
   background-color: #7a7a7ac9;
-  width: 900px;
+  width: 940px;
   height: 300px;
+  display: inline-flex;
   margin: auto;
   padding: 30px;
   text-align: left;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .formButton .f1 {
@@ -242,6 +244,7 @@ a.fciA:hover:before {
 }
 
 .map {
+  display: inline-flex;
   margin: auto;
   width: 1000px;
   height: 350px;
@@ -251,7 +254,7 @@ a.fciA:hover:before {
 
 @media screen and (max-width:1200px) {
   .formButton {
-    width: 850px;
+    width: 800px;
     height: 250px;
   }
 
@@ -276,18 +279,18 @@ a.fciA:hover:before {
 
   iframe {
     width: 800px;
+    margin: auto;
   }
   
   .map {
     width: 800px;
-    left: 15%;
     margin: auto;
   }
 }
 
 @media screen and (max-width:1103px) {
   .formButton {
-    width: 700px;
+    width: 650px;
     height: 230px;
   }
   
@@ -323,7 +326,6 @@ a.fciA:hover:before {
   
   iframe {
     width: 650px;
-   
   }
   
   .map {
