@@ -1,13 +1,13 @@
-nav{
+nav {
   margin-top: 30px;
   margin-left: 80px;
 }
 
-.topnav .icon{
+.topnav .icon {
   display: none;
 }
 
-.topnav a{
+.topnav a {
   margin: 40px auto;
   font-size: 13px;
   font-weight: bold;
@@ -22,26 +22,26 @@ nav{
   transition: color 0.2s;
 }
 
-.statWrap{
+.statWrap {
   text-align: center;
   height: 500px;
   margin-bottom: 100px;
 }
 
-.statWrap h2{
+.statWrap h2 {
   margin: 100px auto 50px;
   font-size: 30px;
   color: #ffffff;
   text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
 }
 
-.statWrap p{
+.statWrap p {
   margin-bottom: 50px;
   font-size: 15px;
   color: #ffffff;
 }
 
-.formButton{
+.formButton {
   background-color: #7a7a7ac9;
   width: 900px;
   height: 300px;
@@ -50,13 +50,13 @@ nav{
   text-align: left;
 }
 
-.formButton .f1{
+.formButton .f1 {
   width: 800px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-.tabForm{
+.tabForm {
   font-size: 16px;
   text-align: center;
   margin-top: 40px;
@@ -64,13 +64,13 @@ nav{
   height: 20px;
 }
 
-.towTab{
+.towTab {
   width: 400px;
   height: 70px;
   margin: auto;
 }
 
-.textfield{
+.textfield {
   height: 30px;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -79,11 +79,11 @@ nav{
   font-size: 18px;
 }
 
-.textfield:focus{
+.textfield:focus {
   box-shadow: 0 0 10px #ffffff;
 }
 
-.formButton a{
+.formButton a {
   font-size: 20px;
   line-height: 40px;
   letter-spacing: -1px;
@@ -99,12 +99,12 @@ nav{
   transition: color 0.2s;
 }
 
-a.fciA:hover{
+a.fciA:hover {
   color: #000000;
   background:rgba(0,0,0,0.1);
 }
 
-a.fciA:after{
+a.fciA:after {
   left: -20px;
   -webkit-transition-property: left, opacity, top;
   -moz-transition-property: left, opacity, top;
@@ -125,13 +125,13 @@ a.fciA:after{
   opacity: 0;
 }
 
-a.fciA:hover:after{
+a.fciA:hover:after {
   left: -10px;
   top: -12px;
   opacity: 1;
 }
 
-a.fciA:before{
+a.fciA:before {
   right: -20px;
   -webkit-transition-property: right, opacity, top;
   -moz-transition-property: right, opacity, top;
@@ -152,13 +152,13 @@ a.fciA:before{
   opacity: 0;
 }
 
-a.fciA:hover:before{
+a.fciA:hover:before {
   right: -10px;
   top: -12px;
   opacity: 1;
 }
 
-.fciSpan:after{
+.fciSpan:after {
   left: -20px;
   -webkit-transition-property: left, opacity, bottom;
   -moz-transition-property: left, opacity, bottom;
@@ -179,13 +179,13 @@ a.fciA:hover:before{
   opacity: 0;
 }
 
-.fciSpan:hover:after{
+.fciSpan:hover:after {
   left: -10px;
   bottom: -14px;
   opacity: 1;
 }
 
-.fciSpan:before{
+.fciSpan:before {
   right: -20px;
   -webkit-transition-property: right, opacity, bottom;
   -moz-transition-property: right, opacity, bottom;
@@ -206,30 +206,30 @@ a.fciA:hover:before{
   opacity: 0;
 }
 
-.fciSpan:hover:before{
+.fciSpan:hover:before {
   right: -10px;
   bottom: -14px;
   opacity: 1;
 }
 
-.main_contacts{
+.main_contacts {
   padding: 100px 0 100px 0;
   width: 100%;
   text-align: center;
 }
 
-.WrapMap h2{
+.WrapMap h2 {
   font-size: 30px;
   color: #ffffff;
   text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
 }
 
-.topMap{
+.topMap {
   display: inline-flex;
   margin: auto; 
 }
 
-.topMap p{
+.topMap p {
   padding: 50px 0;
   margin-left: 30px;
   color: #ffffff;
@@ -237,11 +237,11 @@ a.fciA:hover:before{
   font-weight: bold;
 }
 
-.topMap a{
-  color: #000000
+.topMap a {
+  color: #ffffff
 }
 
-.map{
+.map {
   margin: auto;
   width: 1000px;
   height: 350px;
@@ -249,17 +249,17 @@ a.fciA:hover:before{
 }
 
 
-@media screen and (max-width:1200px){
-  .formButton{
+@media screen and (max-width:1200px) {
+  .formButton {
     width: 850px;
     height: 250px;
   }
 
-  .formButton a{
+  .formButton a {
     top: 65px;
   }
 
-  .tabForm{
+  .tabForm {
     font-size: 12px;
   }
 
@@ -270,37 +270,36 @@ a.fciA:hover:before{
     margin: 15px;
   }
 
-  nav{
+  nav {
     margin-left: 7%;
   }
 
-  iframe{
+  iframe {
     width: 800px;
   }
   
-  .map{
+  .map {
     width: 800px;
     left: 15%;
     margin: auto;
   }
-
 }
 
-@media screen and (max-width:1103px){
-  .formButton{
+@media screen and (max-width:1103px) {
+  .formButton {
     width: 700px;
     height: 230px;
   }
   
-  .formButton .f1{
+  .formButton .f1 {
     width: 600px;
   }
 
-  .formButton a{
+  .formButton a {
     top: 100px;
   }
 
-  .tabForm{
+  .tabForm {
     font-size: 12px;
   }
 
@@ -311,43 +310,43 @@ a.fciA:hover:before{
     margin: 15px;
   }
   
-  .entr_cont{
+  .entr_cont {
     position: relative;
     bottom: 230px;
     margin: 100px auto 0;
   }
 
-  .topMap p{
+  .topMap p {
     flex-direction: column;
     font-size: 10px;
   }
   
-  iframe{
+  iframe {
     width: 650px;
    
   }
   
-  .map{
+  .map {
     width: 650px;
   }
 }
 
-@media screen and (max-width:1010px){
-  .entr_cont{
+@media screen and (max-width:1010px) {
+  .entr_cont {
     position: relative;
     bottom: 230px;
     margin: 100px auto 0;
   }
-  .formButton{
+  .formButton {
     width: 400px;
     height: 300px;
   }
  
-  .formButton .f1{
+  .formButton .f1 {
     width: 400px;
   }
 
-  .formButton a{
+  .formButton a {
     position: relative;
     left: 125px;
   }
@@ -358,16 +357,15 @@ a.fciA:hover:before{
     padding: 5px 3px;
     margin: 15px;
   }
-  .tabForm{
+  .tabForm {
     font-size: 12px;
   }
 
-  iframe{
-    width: 400px;
+  iframe {
+    width: 460px;
   }
   
-  .map{
-    width: 400px;
+  .map {
+    width: 460px;
   }
 }
-
